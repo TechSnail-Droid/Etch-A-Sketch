@@ -1,0 +1,29 @@
+.body{
+    background-color: lightcoral;
+}
+.sketch{
+    display:flex;
+    justify-content: center;
+}
+.grid{
+    width:600px;
+    height:600px;
+    display: grid;
+    background-color: white;
+    box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.4);
+}
+.title{
+    text-align: center;
+}
+.buttons{
+    margin-top: 10px;
+    display:flex;
+    height:40px;
+    justify-content: space-evenly;
+    
+}
+.text-bar{
+    margin-top:10px;
+    display: flex;
+    justify-content: center;
+}
