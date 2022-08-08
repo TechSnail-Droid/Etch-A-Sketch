@@ -1,5 +1,6 @@
 .body{
     background-color: lightcoral;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .sketch{
     display:flex;
@@ -14,16 +15,109 @@
 }
 .title{
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .buttons{
     margin-top: 10px;
     display:flex;
-    height:40px;
-    justify-content: space-evenly;
+    height:50px;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
+.black-button{
+    background-color: black;
+    color:white;
+    font-weight: bold;
+    border-radius: 25px;
+    width:100px;
+    margin-right:10px;
+    font-size: 20px;
+}
+.blue-button{
+    background-color: blue;
+    color:white;
+    font-weight: bold;
+    border-radius: 25px;
+    width:100px;
+    margin-right:10px;
+    font-size: 20px;
+    border:none;
+}
+.red-button{
+    background-color: red;
+    color:white;
+    font-weight: bold;
+    border-radius: 25px;
+    width:100px;
+    margin-right:10px;
+    font-size: 20px;
+    border:none;
+}
+.green-button{
+    background-color: green;
+    color:white;
+    font-weight: bold;
+    border-radius: 25px;
+    width:100px;
+    margin-right:10px;
+    font-size: 20px;
+    border:none;
+}
+.random-button{
+    background-color: aliceblue;
+    color:black;
+    font-weight: bold;
+    border-radius: 25px;
+    width:100px;
+    margin-right:10px;
+    font-size: 20px;
+    border:none;
+}
+.eraser-button{
+    background-color:pink;
+    color:black;
+    font-weight: bold;
+    border-radius: 25px;
+    width:100px;
+    margin-right:10px;
+    font-size: 20px;
+    border:none;
+}
+.clear-button{
+    background-color: aliceblue;
+    color:black;
+    font-weight: bold;
+    border-radius: 25px;
+    width:150px;
+    margin-right:10px;
+    font-size: 20px;
+    border:none;
+}
+.set-button{
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.black-button:hover,.blue-button:hover,.red-button:hover,.green-button:hover.random-button:hover,.set-button:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+.black-button:active,.blue-button:active,.red-button:active,.green-button:active,.random-button:active,.set-button:active{
+    opacity: 0.7;
+}
+
 .text-bar{
     margin-top:10px;
     display: flex;
     justify-content: center;
+    
 }
+.input-bar{
+    font-size:20px;
+    width:90px;
+    margin-right: 10px;
+}
+

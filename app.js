@@ -21,7 +21,8 @@ for(let i = 0; i <limit; i++){ // for loop cycles through a number and creates a
 
 function colorGrid(){
     if (color === 'random'){
-        this.style.backgroundColor = `hsl(${Math.random()* 360}, 100%, 50%)`
+        this.style.backgroundColor = `hsl(${Math.random()* 360}, 100%, 50%)`;
+        
     }
     else{
         this.style.backgroundColor = color;
@@ -51,5 +52,12 @@ function changeSize(input){
     }
     
    }
-   
+function randomBackground(){
+    const button = document.getElementById('randomButton');
+        let color = '#';
+        color += Math.random().toString(16).slice(2,8);
+       button.style.backgroundColor = color;
+    
+    
+}
   
