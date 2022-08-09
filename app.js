@@ -14,7 +14,9 @@ let limit = size * size;
 for(let i = 0; i <limit; i++){ // for loop cycles through a number and creates a div with the color blue because we used createElment and background color functions, then appended it
     const square = document.createElement('div');
     square.addEventListener('mouseover', colorGrid) // when a mouseover action occurs, run the colorSquare function
-    square.style.backgroundColor='white'
+    square.style.backgroundColor='white';
+    square.style.border= 'solid';
+    square.style.border.size = '1px';
     grid.appendChild(square)
 }
 }
